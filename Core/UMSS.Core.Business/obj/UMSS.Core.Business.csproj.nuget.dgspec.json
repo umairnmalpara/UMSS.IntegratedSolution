@@ -1,0 +1,122 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Business\\UMSS.Core.Business.csproj": {}
+  },
+  "projects": {
+    "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Business\\UMSS.Core.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Business\\UMSS.Core.Business.csproj",
+        "projectName": "UMSS.Core.Business",
+        "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Business\\UMSS.Core.Business.csproj",
+        "packagesPath": "C:\\Users\\umair.malpara\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\umair.malpara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Common\\UMSS.Core.Common.csproj": {
+                "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Common\\UMSS.Core.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Common\\UMSS.Core.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Common\\UMSS.Core.Common.csproj",
+        "projectName": "UMSS.Core.Common",
+        "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Common\\UMSS.Core.Common.csproj",
+        "packagesPath": "C:\\Users\\umair.malpara\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\umair.malpara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
