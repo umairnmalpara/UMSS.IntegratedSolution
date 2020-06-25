@@ -9,8 +9,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{EE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{18799C23-F7DD-4E2B-959A-35C3823D9C1E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AutomatedTest", "AutomatedTest", "{B669FEB5-212C-4AF9-AAAD-BAF7222CE986}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UMSS.Core.Common", "Core\UMSS.Core.Common\UMSS.Core.Common.csproj", "{75649FC2-7456-4038-A002-A72852BA74E3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UMSS.Core.Business", "Core\UMSS.Core.Business\UMSS.Core.Business.csproj", "{D2971670-86D5-4511-B5A6-35E3FFF759D2}"

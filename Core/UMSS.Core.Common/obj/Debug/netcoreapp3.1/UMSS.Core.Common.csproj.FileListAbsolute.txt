@@ -1,7 +1,6 @@
 D:\MyProjects\UMSS.IntegratedSolution\Core\UMSS.Core.Common\bin\Debug\netcoreapp3.1\UMSS.Core.Common.deps.json
 D:\MyProjects\UMSS.IntegratedSolution\Core\UMSS.Core.Common\bin\Debug\netcoreapp3.1\UMSS.Core.Common.dll
 D:\MyProjects\UMSS.IntegratedSolution\Core\UMSS.Core.Common\bin\Debug\netcoreapp3.1\UMSS.Core.Common.pdb
-D:\MyProjects\UMSS.IntegratedSolution\Core\UMSS.Core.Common\obj\Debug\netcoreapp3.1\UMSS.Core.Common.csprojAssemblyReference.cache
 D:\MyProjects\UMSS.IntegratedSolution\Core\UMSS.Core.Common\obj\Debug\netcoreapp3.1\UMSS.Core.Common.AssemblyInfoInputs.cache
 D:\MyProjects\UMSS.IntegratedSolution\Core\UMSS.Core.Common\obj\Debug\netcoreapp3.1\UMSS.Core.Common.AssemblyInfo.cs
 D:\MyProjects\UMSS.IntegratedSolution\Core\UMSS.Core.Common\obj\Debug\netcoreapp3.1\UMSS.Core.Common.dll
