@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
 using System.Threading.Tasks;
-using UMSS.Core.Common.Models;
+using UMSS.Core.Generic.Common.Models;
 using Microsoft.AspNetCore.Mvc;
-using UMSS.Core.Common.Entities;
-using UMSS.Core.Common.Services;
+using UMSS.Core.Generic.Common.Entities;
+using UMSS.Core.Generic.Common.Services;
 using System.Collections.Generic;
 using UMSS.Web.IntegratedWebApi.Resources;
 using UMSS.Web.IntegratedWebApi.Validators;

@@ -10,7 +10,7 @@
       "NETCOREAPP",
       "NETCOREAPP3_1"
     ],
-    "languageVersion": "",
+    "languageVersion": "8.0",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
@@ -41,9 +41,9 @@
           "Serilog.Sinks.RollingFile": "3.3.0",
           "Serilog.Sinks.Seq": "4.0.0",
           "Swashbuckle.AspNetCore": "5.4.1",
-          "UMSS.Core.Business": "1.0.0",
-          "UMSS.Core.Common": "1.0.0",
-          "UMSS.Core.DataAccess": "1.0.0",
+          "UMSS.Core.Generic.Business": "1.0.0",
+          "UMSS.Core.Generic.Common": "1.0.0",
+          "UMSS.Core.Generic.DataAccess": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -806,20 +806,6 @@
             "assemblyVersion": "3.1.5.0",
             "fileVersion": "3.100.520.27007"
           }
-        }
-      },
-      "Microsoft.EntityFrameworkCore.InMemory/3.1.5": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "3.1.5"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
-            "assemblyVersion": "3.1.5.0",
-            "fileVersion": "3.100.520.27007"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
         }
       },
       "Microsoft.EntityFrameworkCore.Relational/3.1.5": {
@@ -2665,39 +2651,38 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "UMSS.Core.Business/1.0.0": {
+      "UMSS.Core.Generic.Business/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": "3.1.5",
-          "UMSS.Core.Common": "1.0.0"
+          "UMSS.Core.Generic.Common": "1.0.0"
         },
         "runtime": {
-          "UMSS.Core.Business.dll": {}
+          "UMSS.Core.Generic.Business.dll": {}
         },
         "compile": {
-          "UMSS.Core.Business.dll": {}
+          "UMSS.Core.Generic.Business.dll": {}
         }
       },
-      "UMSS.Core.Common/1.0.0": {
+      "UMSS.Core.Generic.Common/1.0.0": {
         "runtime": {
-          "UMSS.Core.Common.dll": {}
+          "UMSS.Core.Generic.Common.dll": {}
         },
         "compile": {
-          "UMSS.Core.Common.dll": {}
+          "UMSS.Core.Generic.Common.dll": {}
         }
       },
-      "UMSS.Core.DataAccess/1.0.0": {
+      "UMSS.Core.Generic.DataAccess/1.0.0": {
         "dependencies": {
           "AutoMapper": "9.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.5",
-          "Microsoft.EntityFrameworkCore.InMemory": "3.1.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.5",
-          "UMSS.Core.Common": "1.0.0"
+          "UMSS.Core.Generic.Common": "1.0.0"
         },
         "runtime": {
-          "UMSS.Core.DataAccess.dll": {}
+          "UMSS.Core.Generic.DataAccess.dll": {}
         },
         "compile": {
-          "UMSS.Core.DataAccess.dll": {}
+          "UMSS.Core.Generic.DataAccess.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -4518,13 +4503,6 @@
       "path": "microsoft.entityframeworkcore.design/3.1.5",
       "hashPath": "microsoft.entityframeworkcore.design.3.1.5.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.InMemory/3.1.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-WBgp8zQHtMJy1wdPCzh6lbXlGhRW+S98nN/PXsDvSk/5q3Ev6Oz5wBg+K98OUa4jJCz53o15vqRmPmVFgxuNbw==",
-      "path": "microsoft.entityframeworkcore.inmemory/3.1.5",
-      "hashPath": "microsoft.entityframeworkcore.inmemory.3.1.5.nupkg.sha512"
-    },
     "Microsoft.EntityFrameworkCore.Relational/3.1.5": {
       "type": "package",
       "serviceable": true,
@@ -5680,17 +5658,17 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "UMSS.Core.Business/1.0.0": {
+    "UMSS.Core.Generic.Business/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "UMSS.Core.Common/1.0.0": {
+    "UMSS.Core.Generic.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "UMSS.Core.DataAccess/1.0.0": {
+    "UMSS.Core.Generic.DataAccess/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

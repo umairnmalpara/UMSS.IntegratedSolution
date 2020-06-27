@@ -543,18 +543,6 @@
           "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.InMemory/3.1.5": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "3.1.5"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
-        }
-      },
       "Microsoft.EntityFrameworkCore.Relational/3.1.5": {
         "type": "package",
         "dependencies": {
@@ -3112,45 +3100,44 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "UMSS.Core.Business/1.0.0": {
+      "UMSS.Core.Generic.Business/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": "3.1.5",
-          "UMSS.Core.Common": "1.0.0"
+          "UMSS.Core.Generic.Common": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/UMSS.Core.Business.dll": {}
+          "bin/placeholder/UMSS.Core.Generic.Business.dll": {}
         },
         "runtime": {
-          "bin/placeholder/UMSS.Core.Business.dll": {}
+          "bin/placeholder/UMSS.Core.Generic.Business.dll": {}
         }
       },
-      "UMSS.Core.Common/1.0.0": {
+      "UMSS.Core.Generic.Common/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/UMSS.Core.Common.dll": {}
+          "bin/placeholder/UMSS.Core.Generic.Common.dll": {}
         },
         "runtime": {
-          "bin/placeholder/UMSS.Core.Common.dll": {}
+          "bin/placeholder/UMSS.Core.Generic.Common.dll": {}
         }
       },
-      "UMSS.Core.DataAccess/1.0.0": {
+      "UMSS.Core.Generic.DataAccess/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "AutoMapper": "9.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.5",
-          "Microsoft.EntityFrameworkCore.InMemory": "3.1.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.5",
-          "UMSS.Core.Common": "1.0.0"
+          "UMSS.Core.Generic.Common": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/UMSS.Core.DataAccess.dll": {}
+          "bin/placeholder/UMSS.Core.Generic.DataAccess.dll": {}
         },
         "runtime": {
-          "bin/placeholder/UMSS.Core.DataAccess.dll": {}
+          "bin/placeholder/UMSS.Core.Generic.DataAccess.dll": {}
         }
       }
     }
@@ -3767,20 +3754,6 @@
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.xml",
         "microsoft.entityframeworkcore.design.3.1.5.nupkg.sha512",
         "microsoft.entityframeworkcore.design.nuspec"
-      ]
-    },
-    "Microsoft.EntityFrameworkCore.InMemory/3.1.5": {
-      "sha512": "WBgp8zQHtMJy1wdPCzh6lbXlGhRW+S98nN/PXsDvSk/5q3Ev6Oz5wBg+K98OUa4jJCz53o15vqRmPmVFgxuNbw==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.inmemory/3.1.5",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll",
-        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.xml",
-        "microsoft.entityframeworkcore.inmemory.3.1.5.nupkg.sha512",
-        "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/3.1.5": {
@@ -9641,20 +9614,20 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "UMSS.Core.Business/1.0.0": {
+    "UMSS.Core.Generic.Business/1.0.0": {
       "type": "project",
-      "path": "../../Core/UMSS.Core.Business/UMSS.Core.Business.csproj",
-      "msbuildProject": "../../Core/UMSS.Core.Business/UMSS.Core.Business.csproj"
+      "path": "../../Core/UMSS.Core.Generic.Business/UMSS.Core.Generic.Business.csproj",
+      "msbuildProject": "../../Core/UMSS.Core.Generic.Business/UMSS.Core.Generic.Business.csproj"
     },
-    "UMSS.Core.Common/1.0.0": {
+    "UMSS.Core.Generic.Common/1.0.0": {
       "type": "project",
-      "path": "../../Core/UMSS.Core.Common/UMSS.Core.Common.csproj",
-      "msbuildProject": "../../Core/UMSS.Core.Common/UMSS.Core.Common.csproj"
+      "path": "../../Core/UMSS.Core.Generic.Common/UMSS.Core.Generic.Common.csproj",
+      "msbuildProject": "../../Core/UMSS.Core.Generic.Common/UMSS.Core.Generic.Common.csproj"
     },
-    "UMSS.Core.DataAccess/1.0.0": {
+    "UMSS.Core.Generic.DataAccess/1.0.0": {
       "type": "project",
-      "path": "../../Core/UMSS.Core.DataAccess/UMSS.Core.DataAccess.csproj",
-      "msbuildProject": "../../Core/UMSS.Core.DataAccess/UMSS.Core.DataAccess.csproj"
+      "path": "../../Core/UMSS.Core.Generic.DataAccess/UMSS.Core.Generic.DataAccess.csproj",
+      "msbuildProject": "../../Core/UMSS.Core.Generic.DataAccess/UMSS.Core.Generic.DataAccess.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -9676,9 +9649,9 @@
       "Serilog.Sinks.RollingFile >= 3.3.0",
       "Serilog.Sinks.Seq >= 4.0.0",
       "Swashbuckle.AspNetCore >= 5.4.1",
-      "UMSS.Core.Business >= 1.0.0",
-      "UMSS.Core.Common >= 1.0.0",
-      "UMSS.Core.DataAccess >= 1.0.0"
+      "UMSS.Core.Generic.Business >= 1.0.0",
+      "UMSS.Core.Generic.Common >= 1.0.0",
+      "UMSS.Core.Generic.DataAccess >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -9707,14 +9680,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Business\\UMSS.Core.Business.csproj": {
-              "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Business\\UMSS.Core.Business.csproj"
+            "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.Business\\UMSS.Core.Generic.Business.csproj": {
+              "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.Business\\UMSS.Core.Generic.Business.csproj"
             },
-            "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Common\\UMSS.Core.Common.csproj": {
-              "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Common\\UMSS.Core.Common.csproj"
+            "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.Common\\UMSS.Core.Generic.Common.csproj": {
+              "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.Common\\UMSS.Core.Generic.Common.csproj"
             },
-            "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.DataAccess\\UMSS.Core.DataAccess.csproj": {
-              "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.DataAccess\\UMSS.Core.DataAccess.csproj"
+            "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.DataAccess\\UMSS.Core.Generic.DataAccess.csproj": {
+              "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.DataAccess\\UMSS.Core.Generic.DataAccess.csproj"
             }
           }
         }

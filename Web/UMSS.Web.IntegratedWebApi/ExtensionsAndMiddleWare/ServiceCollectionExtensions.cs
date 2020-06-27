@@ -6,11 +6,11 @@ using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using UMSS.Core.Business.Services;
-using UMSS.Core.Common.Repositories.Base;
-using UMSS.Core.Common.Services;
-using UMSS.Core.DataAccess.DatabaseContext;
-using UMSS.Core.DataAccess.Repositories.Base;
+using UMSS.Core.Generic.Business.Services;
+using UMSS.Core.Generic.Common.Repositories.Base;
+using UMSS.Core.Generic.Common.Services;
+using UMSS.Core.Generic.DataAccess.DatabaseContext;
+using UMSS.Core.Generic.DataAccess.Repositories.Base;
 
 namespace UMSS.Web.IntegratedWebApi.ExtensionsAndMiddleWare
 {

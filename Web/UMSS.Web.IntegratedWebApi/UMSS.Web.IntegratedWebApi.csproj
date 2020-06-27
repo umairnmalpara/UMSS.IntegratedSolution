@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -28,13 +29,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Core\UMSS.Core.Business\UMSS.Core.Business.csproj" />
-    <ProjectReference Include="..\..\Core\UMSS.Core.Common\UMSS.Core.Common.csproj" />
-    <ProjectReference Include="..\..\Core\UMSS.Core.DataAccess\UMSS.Core.DataAccess.csproj" />
+    <Folder Include="Constants\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Constants\" />
+    <ProjectReference Include="..\..\Core\UMSS.Core.Generic.Business\UMSS.Core.Generic.Business.csproj" />
+    <ProjectReference Include="..\..\Core\UMSS.Core.Generic.Common\UMSS.Core.Generic.Common.csproj" />
+    <ProjectReference Include="..\..\Core\UMSS.Core.Generic.DataAccess\UMSS.Core.Generic.DataAccess.csproj" />
   </ItemGroup>
 
 

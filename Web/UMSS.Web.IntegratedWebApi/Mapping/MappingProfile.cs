@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
-using UMSS.Core.Common.Entities;
+using UMSS.Core.Generic.Common.Entities;
 using UMSS.Web.IntegratedWebApi.Resources;
 
 namespace UMSS.Web.IntegratedWebApi.Mapping

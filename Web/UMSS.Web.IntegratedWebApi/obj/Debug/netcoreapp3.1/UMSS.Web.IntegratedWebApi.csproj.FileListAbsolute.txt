@@ -25,7 +25,6 @@ D:\MyProjects\UMSS.IntegratedSolution\Web\UMSS.Web.IntegratedWebApi\bin\Debug\ne
 D:\MyProjects\UMSS.IntegratedSolution\Web\UMSS.Web.IntegratedWebApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 D:\MyProjects\UMSS.IntegratedSolution\Web\UMSS.Web.IntegratedWebApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\MyProjects\UMSS.IntegratedSolution\Web\UMSS.Web.IntegratedWebApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-D:\MyProjects\UMSS.IntegratedSolution\Web\UMSS.Web.IntegratedWebApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
 D:\MyProjects\UMSS.IntegratedSolution\Web\UMSS.Web.IntegratedWebApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 D:\MyProjects\UMSS.IntegratedSolution\Web\UMSS.Web.IntegratedWebApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 D:\MyProjects\UMSS.IntegratedSolution\Web\UMSS.Web.IntegratedWebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
@@ -141,12 +140,12 @@ D:\MyProjects\UMSS.IntegratedSolution\Web\UMSS.Web.IntegratedWebApi\bin\Debug\ne
 D:\MyProjects\UMSS.IntegratedSolution\Web\UMSS.Web.IntegratedWebApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\MyProjects\UMSS.IntegratedSolution\Web\UMSS.Web.IntegratedWebApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\MyProjects\UMSS.IntegratedSolution\Web\UMSS.Web.IntegratedWebApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\MyProjects\UMSS.IntegratedSolution\Web\UMSS.Web.IntegratedWebApi\bin\Debug\netcoreapp3.1\UMSS.Core.Business.dll
-D:\MyProjects\UMSS.IntegratedSolution\Web\UMSS.Web.IntegratedWebApi\bin\Debug\netcoreapp3.1\UMSS.Core.Common.dll
-D:\MyProjects\UMSS.IntegratedSolution\Web\UMSS.Web.IntegratedWebApi\bin\Debug\netcoreapp3.1\UMSS.Core.DataAccess.dll
-D:\MyProjects\UMSS.IntegratedSolution\Web\UMSS.Web.IntegratedWebApi\bin\Debug\netcoreapp3.1\UMSS.Core.Business.pdb
-D:\MyProjects\UMSS.IntegratedSolution\Web\UMSS.Web.IntegratedWebApi\bin\Debug\netcoreapp3.1\UMSS.Core.Common.pdb
-D:\MyProjects\UMSS.IntegratedSolution\Web\UMSS.Web.IntegratedWebApi\bin\Debug\netcoreapp3.1\UMSS.Core.DataAccess.pdb
+D:\MyProjects\UMSS.IntegratedSolution\Web\UMSS.Web.IntegratedWebApi\bin\Debug\netcoreapp3.1\UMSS.Core.Generic.Business.dll
+D:\MyProjects\UMSS.IntegratedSolution\Web\UMSS.Web.IntegratedWebApi\bin\Debug\netcoreapp3.1\UMSS.Core.Generic.Common.dll
+D:\MyProjects\UMSS.IntegratedSolution\Web\UMSS.Web.IntegratedWebApi\bin\Debug\netcoreapp3.1\UMSS.Core.Generic.DataAccess.dll
+D:\MyProjects\UMSS.IntegratedSolution\Web\UMSS.Web.IntegratedWebApi\bin\Debug\netcoreapp3.1\UMSS.Core.Generic.Business.pdb
+D:\MyProjects\UMSS.IntegratedSolution\Web\UMSS.Web.IntegratedWebApi\bin\Debug\netcoreapp3.1\UMSS.Core.Generic.Common.pdb
+D:\MyProjects\UMSS.IntegratedSolution\Web\UMSS.Web.IntegratedWebApi\bin\Debug\netcoreapp3.1\UMSS.Core.Generic.DataAccess.pdb
 D:\MyProjects\UMSS.IntegratedSolution\Web\UMSS.Web.IntegratedWebApi\obj\Debug\netcoreapp3.1\UMSS.Web.IntegratedWebApi.csprojAssemblyReference.cache
 D:\MyProjects\UMSS.IntegratedSolution\Web\UMSS.Web.IntegratedWebApi\obj\Debug\netcoreapp3.1\staticwebassets\UMSS.Web.IntegratedWebApi.StaticWebAssets.Manifest.cache
 D:\MyProjects\UMSS.IntegratedSolution\Web\UMSS.Web.IntegratedWebApi\obj\Debug\netcoreapp3.1\staticwebassets\UMSS.Web.IntegratedWebApi.StaticWebAssets.xml
