@@ -6,8 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoMapper" Version="9.0.0" />
-    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
     <PackageReference Include="FluentValidation" Version="8.6.2" />
     <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.5">
@@ -33,9 +33,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Core\UMSS.Core.Generic.Business\UMSS.Core.Generic.Business.csproj" />
-    <ProjectReference Include="..\..\Core\UMSS.Core.Generic.Common\UMSS.Core.Generic.Common.csproj" />
-    <ProjectReference Include="..\..\Core\UMSS.Core.Generic.DataAccess\UMSS.Core.Generic.DataAccess.csproj" />
+    <ProjectReference Include="..\..\Music\UMSS.Music.Business\UMSS.Music.Business.csproj" />
   </ItemGroup>
 
 

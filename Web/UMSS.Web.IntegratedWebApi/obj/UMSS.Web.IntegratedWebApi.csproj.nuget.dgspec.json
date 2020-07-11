@@ -4,77 +4,14 @@
     "D:\\MyProjects\\UMSS.IntegratedSolution\\Web\\UMSS.Web.IntegratedWebApi\\UMSS.Web.IntegratedWebApi.csproj": {}
   },
   "projects": {
-    "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.Business\\UMSS.Core.Generic.Business.csproj": {
+    "D:\\MyProjects\\UMSS.IntegratedSolution\\Generic\\UMSS.Generic.Common\\UMSS.Generic.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.Business\\UMSS.Core.Generic.Business.csproj",
-        "projectName": "UMSS.Core.Generic.Business",
-        "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.Business\\UMSS.Core.Generic.Business.csproj",
+        "projectUniqueName": "D:\\MyProjects\\UMSS.IntegratedSolution\\Generic\\UMSS.Generic.Common\\UMSS.Generic.Common.csproj",
+        "projectName": "UMSS.Generic.Common",
+        "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Generic\\UMSS.Generic.Common\\UMSS.Generic.Common.csproj",
         "packagesPath": "C:\\Users\\umair.malpara\\.nuget\\packages\\",
-        "outputPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.Business\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\umair.malpara\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netstandard2.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netstandard2.0": {
-            "projectReferences": {
-              "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.Common\\UMSS.Core.Generic.Common.csproj": {
-                "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.Common\\UMSS.Core.Generic.Common.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netstandard2.0": {
-          "dependencies": {
-            "Microsoft.Extensions.Logging.Abstractions": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.Common\\UMSS.Core.Generic.Common.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.Common\\UMSS.Core.Generic.Common.csproj",
-        "projectName": "UMSS.Core.Generic.Common",
-        "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.Common\\UMSS.Core.Generic.Common.csproj",
-        "packagesPath": "C:\\Users\\umair.malpara\\.nuget\\packages\\",
-        "outputPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.Common\\obj\\",
+        "outputPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Generic\\UMSS.Generic.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\umair.malpara\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -118,18 +55,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.DataAccess\\UMSS.Core.Generic.DataAccess.csproj": {
+    "D:\\MyProjects\\UMSS.IntegratedSolution\\Generic\\UMSS.Generic.Repository\\UMSS.Generic.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.DataAccess\\UMSS.Core.Generic.DataAccess.csproj",
-        "projectName": "UMSS.Core.Generic.DataAccess",
-        "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.DataAccess\\UMSS.Core.Generic.DataAccess.csproj",
+        "projectUniqueName": "D:\\MyProjects\\UMSS.IntegratedSolution\\Generic\\UMSS.Generic.Repository\\UMSS.Generic.Repository.csproj",
+        "projectName": "UMSS.Generic.Repository",
+        "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Generic\\UMSS.Generic.Repository\\UMSS.Generic.Repository.csproj",
         "packagesPath": "C:\\Users\\umair.malpara\\.nuget\\packages\\",
-        "outputPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.DataAccess\\obj\\",
+        "outputPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Generic\\UMSS.Generic.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\umair.malpara\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -145,8 +82,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.Common\\UMSS.Core.Generic.Common.csproj": {
-                "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.Common\\UMSS.Core.Generic.Common.csproj"
+              "D:\\MyProjects\\UMSS.IntegratedSolution\\Generic\\UMSS.Generic.Common\\UMSS.Generic.Common.csproj": {
+                "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Generic\\UMSS.Generic.Common\\UMSS.Generic.Common.csproj"
               }
             }
           }
@@ -162,8 +99,257 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.0, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyProjects\\UMSS.IntegratedSolution\\Generic\\UMSS.Generic.Service\\UMSS.Generic.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProjects\\UMSS.IntegratedSolution\\Generic\\UMSS.Generic.Service\\UMSS.Generic.Service.csproj",
+        "projectName": "UMSS.Generic.Service",
+        "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Generic\\UMSS.Generic.Service\\UMSS.Generic.Service.csproj",
+        "packagesPath": "C:\\Users\\umair.malpara\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Generic\\UMSS.Generic.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\umair.malpara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\MyProjects\\UMSS.IntegratedSolution\\Generic\\UMSS.Generic.Repository\\UMSS.Generic.Repository.csproj": {
+                "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Generic\\UMSS.Generic.Repository\\UMSS.Generic.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.Business\\UMSS.Music.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.Business\\UMSS.Music.Business.csproj",
+        "projectName": "UMSS.Music.Business",
+        "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.Business\\UMSS.Music.Business.csproj",
+        "packagesPath": "C:\\Users\\umair.malpara\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\umair.malpara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\MyProjects\\UMSS.IntegratedSolution\\Generic\\UMSS.Generic.Service\\UMSS.Generic.Service.csproj": {
+                "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Generic\\UMSS.Generic.Service\\UMSS.Generic.Service.csproj"
+              },
+              "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.DataAccess\\UMSS.Music.DataAccess.csproj": {
+                "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.DataAccess\\UMSS.Music.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.DataAccess\\UMSS.Music.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.DataAccess\\UMSS.Music.DataAccess.csproj",
+        "projectName": "UMSS.Music.DataAccess",
+        "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.DataAccess\\UMSS.Music.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\umair.malpara\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\umair.malpara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\MyProjects\\UMSS.IntegratedSolution\\Generic\\UMSS.Generic.Repository\\UMSS.Generic.Repository.csproj": {
+                "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Generic\\UMSS.Generic.Repository\\UMSS.Generic.Repository.csproj"
+              },
+              "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.DataService\\UMSS.Music.DataService.csproj": {
+                "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.DataService\\UMSS.Music.DataService.csproj"
+              },
+              "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.MapperService\\UMSS.Music.MapperService.csproj": {
+                "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.MapperService\\UMSS.Music.MapperService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.DataService\\UMSS.Music.DataService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.DataService\\UMSS.Music.DataService.csproj",
+        "projectName": "UMSS.Music.DataService",
+        "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.DataService\\UMSS.Music.DataService.csproj",
+        "packagesPath": "C:\\Users\\umair.malpara\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.DataService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\umair.malpara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.Entity\\UMSS.Music.Entity.csproj": {
+                "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.Entity\\UMSS.Music.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.5, )"
@@ -201,7 +387,191 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.Entity\\UMSS.Music.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.Entity\\UMSS.Music.Entity.csproj",
+        "projectName": "UMSS.Music.Entity",
+        "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.Entity\\UMSS.Music.Entity.csproj",
+        "packagesPath": "C:\\Users\\umair.malpara\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\umair.malpara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\MyProjects\\UMSS.IntegratedSolution\\Generic\\UMSS.Generic.Common\\UMSS.Generic.Common.csproj": {
+                "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Generic\\UMSS.Generic.Common\\UMSS.Generic.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.MapperService\\UMSS.Music.MapperService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.MapperService\\UMSS.Music.MapperService.csproj",
+        "projectName": "UMSS.Music.MapperService",
+        "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.MapperService\\UMSS.Music.MapperService.csproj",
+        "packagesPath": "C:\\Users\\umair.malpara\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.MapperService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\umair.malpara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.Entity\\UMSS.Music.Entity.csproj": {
+                "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.Entity\\UMSS.Music.Entity.csproj"
+              },
+              "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.Model\\UMSS.Music.Model.csproj": {
+                "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.Model\\UMSS.Music.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.Model\\UMSS.Music.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.Model\\UMSS.Music.Model.csproj",
+        "projectName": "UMSS.Music.Model",
+        "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.Model\\UMSS.Music.Model.csproj",
+        "packagesPath": "C:\\Users\\umair.malpara\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\umair.malpara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\MyProjects\\UMSS.IntegratedSolution\\Generic\\UMSS.Generic.Common\\UMSS.Generic.Common.csproj": {
+                "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Generic\\UMSS.Generic.Common\\UMSS.Generic.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -228,14 +598,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.Business\\UMSS.Core.Generic.Business.csproj": {
-                "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.Business\\UMSS.Core.Generic.Business.csproj"
-              },
-              "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.Common\\UMSS.Core.Generic.Common.csproj": {
-                "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.Common\\UMSS.Core.Generic.Common.csproj"
-              },
-              "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.DataAccess\\UMSS.Core.Generic.DataAccess.csproj": {
-                "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.DataAccess\\UMSS.Core.Generic.DataAccess.csproj"
+              "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.Business\\UMSS.Music.Business.csproj": {
+                "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.Business\\UMSS.Music.Business.csproj"
               }
             }
           }
@@ -251,11 +615,11 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.0, )"
             },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.0, )"
             },
             "FluentValidation": {
               "target": "Package",
@@ -338,7 +702,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

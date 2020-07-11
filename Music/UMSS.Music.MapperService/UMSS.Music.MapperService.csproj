@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UMSS.Music.Entity\UMSS.Music.Entity.csproj" />
+    <ProjectReference Include="..\UMSS.Music.Model\UMSS.Music.Model.csproj" />
+  </ItemGroup>
+
+</Project>

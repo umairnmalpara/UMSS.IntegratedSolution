@@ -6,11 +6,11 @@ using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using UMSS.Core.Generic.Business.Services;
-using UMSS.Core.Generic.Common.Repositories.Base;
-using UMSS.Core.Generic.Common.Services;
-using UMSS.Core.Generic.DataAccess.DatabaseContext;
-using UMSS.Core.Generic.DataAccess.Repositories.Base;
+using UMSS.Music.Business.Services.Implementation;
+using UMSS.Music.Business.Services.Interface;
+using UMSS.Music.DataAccess.UnitOfWork.Implementation;
+using UMSS.Music.DataAccess.UnitOfWork.Interface;
+using UMSS.Music.DataService;
 
 namespace UMSS.Web.IntegratedWebApi.ExtensionsAndMiddleWare
 {
@@ -32,7 +32,8 @@ namespace UMSS.Web.IntegratedWebApi.ExtensionsAndMiddleWare
             //}
 
             //Add Db Context
-            services.AddDbContext<IntegratedDatabaseContext>(c => c.UseSqlServer(connectionString, b => b.MigrationsAssembly("UMSS.Core.DataAccess")));
+            services.AddDbContext<MusicDbContext>(options => 
+                options.UseSqlServer(connectionString, b => b.MigrationsAssembly("UMSS.Music.DataService")));
 
         }
 
@@ -40,7 +41,7 @@ namespace UMSS.Web.IntegratedWebApi.ExtensionsAndMiddleWare
         {
             if (services == null) throw new ArgumentNullException(nameof(services));
 
-            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IMusicUnitOfWork, MusicUnitOfWork>();
         }
 
         public static void AddBusinessDependencies(this IServiceCollection services)

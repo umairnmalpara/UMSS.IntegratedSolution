@@ -1,12 +1,11 @@
 ﻿using AutoMapper;
 using System.Threading.Tasks;
-using UMSS.Core.Generic.Common.Models;
 using Microsoft.AspNetCore.Mvc;
-using UMSS.Core.Generic.Common.Entities;
-using UMSS.Core.Generic.Common.Services;
 using System.Collections.Generic;
 using UMSS.Web.IntegratedWebApi.Resources;
 using UMSS.Web.IntegratedWebApi.Validators;
+using UMSS.Music.Business.Services.Interface;
+using UMSS.Music.Model;
 
 namespace UMSS.Web.IntegratedWebApi.Controllers
 {
@@ -62,7 +61,7 @@ namespace UMSS.Web.IntegratedWebApi.Controllers
             if (!validationResult.IsValid)
                 return BadRequest(validationResult.Errors); // this needs refining, but for demo it is ok
 
-            var musicToCreate = _mapper.Map<SaveMusicResource, Music>(saveMusicResource);
+            var musicToCreate = _mapper.Map<SaveMusicResource, UMSS.Music.Entity.Music>(saveMusicResource);
 
             var result = await _musicService.CreateEntity(musicToCreate);
             if (!result.Success)
@@ -82,7 +81,7 @@ namespace UMSS.Web.IntegratedWebApi.Controllers
             if (requestIsInvalid)
                 return BadRequest(validationResult.Errors); // this needs refining, but for demo it is ok
 
-            var musicToBeUpdate = _mapper.Map<SaveMusicResource, Music>(saveMusicResource);
+            var musicToBeUpdate = _mapper.Map<SaveMusicResource, UMSS.Music.Entity.Music>(saveMusicResource);
 
             var result = await _musicService.UpdateEntity(id, musicToBeUpdate);
             if (!result.Success)

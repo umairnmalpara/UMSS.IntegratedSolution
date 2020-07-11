@@ -85,9 +85,10 @@ D:\MyProjects\UMSS.IntegratedSolution\UnitTest\UMSS.UnitTest.IntegratedUnitTest\
 D:\MyProjects\UMSS.IntegratedSolution\UnitTest\UMSS.UnitTest.IntegratedUnitTest\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 D:\MyProjects\UMSS.IntegratedSolution\UnitTest\UMSS.UnitTest.IntegratedUnitTest\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 D:\MyProjects\UMSS.IntegratedSolution\UnitTest\UMSS.UnitTest.IntegratedUnitTest\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\MyProjects\UMSS.IntegratedSolution\UnitTest\UMSS.UnitTest.IntegratedUnitTest\obj\Debug\netcoreapp3.1\UMSS.UnitTest.IntegratedUnitTest.csprojAssemblyReference.cache
 D:\MyProjects\UMSS.IntegratedSolution\UnitTest\UMSS.UnitTest.IntegratedUnitTest\obj\Debug\netcoreapp3.1\UMSS.UnitTest.IntegratedUnitTest.AssemblyInfoInputs.cache
 D:\MyProjects\UMSS.IntegratedSolution\UnitTest\UMSS.UnitTest.IntegratedUnitTest\obj\Debug\netcoreapp3.1\UMSS.UnitTest.IntegratedUnitTest.AssemblyInfo.cs
 D:\MyProjects\UMSS.IntegratedSolution\UnitTest\UMSS.UnitTest.IntegratedUnitTest\obj\Debug\netcoreapp3.1\UMSS.UnitTest.IntegratedUnitTest.csproj.CopyComplete
 D:\MyProjects\UMSS.IntegratedSolution\UnitTest\UMSS.UnitTest.IntegratedUnitTest\obj\Debug\netcoreapp3.1\UMSS.UnitTest.IntegratedUnitTest.dll
 D:\MyProjects\UMSS.IntegratedSolution\UnitTest\UMSS.UnitTest.IntegratedUnitTest\obj\Debug\netcoreapp3.1\UMSS.UnitTest.IntegratedUnitTest.pdb
-D:\MyProjects\UMSS.IntegratedSolution\UnitTest\UMSS.UnitTest.IntegratedUnitTest\obj\Debug\netcoreapp3.1\UMSS.UnitTest.IntegratedUnitTest.csprojAssemblyReference.cache
+D:\MyProjects\UMSS.IntegratedSolution\UnitTest\UMSS.UnitTest.IntegratedUnitTest\obj\Debug\netcoreapp3.1\UMSS.UnitTest.IntegratedUnitTest.genruntimeconfig.cache

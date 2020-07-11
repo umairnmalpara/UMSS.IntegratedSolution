@@ -2,11 +2,11 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "AutoMapper/9.0.0": {
+      "AutoMapper/10.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
-          "System.Reflection.Emit": "4.3.0"
+          "Microsoft.CSharp": "4.7.0",
+          "System.Reflection.Emit": "4.7.0"
         },
         "compile": {
           "lib/netstandard2.0/AutoMapper.dll": {}
@@ -15,11 +15,12 @@
           "lib/netstandard2.0/AutoMapper.dll": {}
         }
       },
-      "AutoMapper.Extensions.Microsoft.DependencyInjection/7.0.0": {
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/8.0.0": {
         "type": "package",
         "dependencies": {
-          "AutoMapper": "9.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+          "AutoMapper": "[10.0.0, 11.0.0)",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "[3.0.0, 4.0.0)",
+          "Microsoft.Extensions.Options": "[3.0.0, 4.0.0)"
         },
         "compile": {
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
@@ -2296,20 +2297,13 @@
           "ref/netstandard1.5/System.Reflection.dll": {}
         }
       },
-      "System.Reflection.Emit/4.3.0": {
+      "System.Reflection.Emit/4.7.0": {
         "type": "package",
-        "dependencies": {
-          "System.IO": "4.3.0",
-          "System.Reflection": "4.3.0",
-          "System.Reflection.Emit.ILGeneration": "4.3.0",
-          "System.Reflection.Primitives": "4.3.0",
-          "System.Runtime": "4.3.0"
-        },
         "compile": {
-          "ref/netstandard1.1/System.Reflection.Emit.dll": {}
+          "ref/netcoreapp2.0/_._": {}
         },
         "runtime": {
-          "lib/netstandard1.3/System.Reflection.Emit.dll": {}
+          "lib/netcoreapp2.0/_._": {}
         }
       },
       "System.Reflection.Emit.ILGeneration/4.3.0": {
@@ -2320,7 +2314,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll": {}
+          "ref/netstandard1.0/_._": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Reflection.Emit.ILGeneration.dll": {}
@@ -3100,77 +3094,159 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "UMSS.Core.Generic.Business/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "3.1.5",
-          "UMSS.Core.Generic.Common": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/UMSS.Core.Generic.Business.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/UMSS.Core.Generic.Business.dll": {}
-        }
-      },
-      "UMSS.Core.Generic.Common/1.0.0": {
+      "UMSS.Generic.Common/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/UMSS.Core.Generic.Common.dll": {}
+          "bin/placeholder/UMSS.Generic.Common.dll": {}
         },
         "runtime": {
-          "bin/placeholder/UMSS.Core.Generic.Common.dll": {}
+          "bin/placeholder/UMSS.Generic.Common.dll": {}
         }
       },
-      "UMSS.Core.Generic.DataAccess/1.0.0": {
+      "UMSS.Generic.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "AutoMapper": "9.0.0",
+          "AutoMapper": "10.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.5",
+          "UMSS.Generic.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UMSS.Generic.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UMSS.Generic.Repository.dll": {}
+        }
+      },
+      "UMSS.Generic.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "UMSS.Generic.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UMSS.Generic.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UMSS.Generic.Service.dll": {}
+        }
+      },
+      "UMSS.Music.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "UMSS.Generic.Service": "1.0.0",
+          "UMSS.Music.DataAccess": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UMSS.Music.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UMSS.Music.Business.dll": {}
+        }
+      },
+      "UMSS.Music.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "UMSS.Generic.Repository": "1.0.0",
+          "UMSS.Music.DataService": "1.0.0",
+          "UMSS.Music.MapperService": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UMSS.Music.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UMSS.Music.DataAccess.dll": {}
+        }
+      },
+      "UMSS.Music.DataService/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
           "Microsoft.EntityFrameworkCore": "3.1.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.5",
-          "UMSS.Core.Generic.Common": "1.0.0"
+          "UMSS.Music.Entity": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/UMSS.Core.Generic.DataAccess.dll": {}
+          "bin/placeholder/UMSS.Music.DataService.dll": {}
         },
         "runtime": {
-          "bin/placeholder/UMSS.Core.Generic.DataAccess.dll": {}
+          "bin/placeholder/UMSS.Music.DataService.dll": {}
+        }
+      },
+      "UMSS.Music.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "UMSS.Generic.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UMSS.Music.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UMSS.Music.Entity.dll": {}
+        }
+      },
+      "UMSS.Music.MapperService/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "AutoMapper": "10.0.0",
+          "UMSS.Music.Entity": "1.0.0",
+          "UMSS.Music.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UMSS.Music.MapperService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UMSS.Music.MapperService.dll": {}
+        }
+      },
+      "UMSS.Music.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "UMSS.Generic.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UMSS.Music.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UMSS.Music.Model.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "AutoMapper/9.0.0": {
-      "sha512": "xCqvoxT4HIrNY/xlXG9W+BA/awdrhWvMTKTK/igkGSRbhOhpl3Q8O8Gxlhzjc9JsYqE7sS6AxgyuUUvZ6R5/Bw==",
+    "AutoMapper/10.0.0": {
+      "sha512": "T09NoqMZBqw0/JEauXulxnmmerl0Zj03e0r6VCcJ0LURWBIaYxZPPoiDv8bHf5Y4x2xcXJp4JPXoCaeOMJfHEA==",
       "type": "package",
-      "path": "automapper/9.0.0",
+      "path": "automapper/10.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "automapper.9.0.0.nupkg.sha512",
+        "automapper.10.0.0.nupkg.sha512",
         "automapper.nuspec",
+        "icon.png",
         "lib/net461/AutoMapper.dll",
-        "lib/net461/AutoMapper.pdb",
         "lib/net461/AutoMapper.xml",
         "lib/netstandard2.0/AutoMapper.dll",
-        "lib/netstandard2.0/AutoMapper.pdb",
         "lib/netstandard2.0/AutoMapper.xml"
       ]
     },
-    "AutoMapper.Extensions.Microsoft.DependencyInjection/7.0.0": {
-      "sha512": "szI4yeRIM7GWe9JyekW0dKYehPB0t6M+I55fPeCebN6PhS7zQZa0eG3bgOnOx+eP3caSNoE7KEJs2rk7MLsh8w==",
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/8.0.0": {
+      "sha512": "Hkb6jP4ZrN8oHrQZePFBeFUcf58hBzqoxi2ntG+TC6A3Y/WqwD7hgCwy4PT6Jbj8dLqAd4OSrrCR8WRq0UG5wQ==",
       "type": "package",
-      "path": "automapper.extensions.microsoft.dependencyinjection/7.0.0",
+      "path": "automapper.extensions.microsoft.dependencyinjection/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
+        "automapper.extensions.microsoft.dependencyinjection.8.0.0.nupkg.sha512",
         "automapper.extensions.microsoft.dependencyinjection.nuspec",
-        "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll",
-        "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.pdb"
+        "icon.png",
+        "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
       ]
     },
     "FluentValidation/8.6.2": {
@@ -7341,26 +7417,34 @@
         "system.reflection.nuspec"
       ]
     },
-    "System.Reflection.Emit/4.3.0": {
-      "sha512": "228FG0jLcIwTVJyz8CLFKueVqQK36ANazUManGaJHkO0icjiIypKW7YLWLIWahyIkdh5M7mV2dJepllLyA1SKg==",
+    "System.Reflection.Emit/4.7.0": {
+      "sha512": "VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
       "type": "package",
-      "path": "system.reflection.emit/4.3.0",
+      "path": "system.reflection.emit/4.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
-        "lib/monotouch10/_._",
+        "lib/MonoTouch10/_._",
         "lib/net45/_._",
         "lib/netcore50/System.Reflection.Emit.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Reflection.Emit.dll",
+        "lib/netstandard1.1/System.Reflection.Emit.xml",
         "lib/netstandard1.3/System.Reflection.Emit.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.xml",
+        "lib/netstandard2.1/_._",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
         "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
         "ref/net45/_._",
+        "ref/netcoreapp2.0/_._",
         "ref/netstandard1.1/System.Reflection.Emit.dll",
         "ref/netstandard1.1/System.Reflection.Emit.xml",
         "ref/netstandard1.1/de/System.Reflection.Emit.xml",
@@ -7372,9 +7456,19 @@
         "ref/netstandard1.1/ru/System.Reflection.Emit.xml",
         "ref/netstandard1.1/zh-hans/System.Reflection.Emit.xml",
         "ref/netstandard1.1/zh-hant/System.Reflection.Emit.xml",
+        "ref/netstandard2.0/System.Reflection.Emit.dll",
+        "ref/netstandard2.0/System.Reflection.Emit.xml",
+        "ref/netstandard2.1/_._",
+        "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
-        "system.reflection.emit.4.3.0.nupkg.sha512",
-        "system.reflection.emit.nuspec"
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.dll",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.xml",
+        "system.reflection.emit.4.7.0.nupkg.sha512",
+        "system.reflection.emit.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Reflection.Emit.ILGeneration/4.3.0": {
@@ -9614,26 +9708,56 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "UMSS.Core.Generic.Business/1.0.0": {
+    "UMSS.Generic.Common/1.0.0": {
       "type": "project",
-      "path": "../../Core/UMSS.Core.Generic.Business/UMSS.Core.Generic.Business.csproj",
-      "msbuildProject": "../../Core/UMSS.Core.Generic.Business/UMSS.Core.Generic.Business.csproj"
+      "path": "../../Generic/UMSS.Generic.Common/UMSS.Generic.Common.csproj",
+      "msbuildProject": "../../Generic/UMSS.Generic.Common/UMSS.Generic.Common.csproj"
     },
-    "UMSS.Core.Generic.Common/1.0.0": {
+    "UMSS.Generic.Repository/1.0.0": {
       "type": "project",
-      "path": "../../Core/UMSS.Core.Generic.Common/UMSS.Core.Generic.Common.csproj",
-      "msbuildProject": "../../Core/UMSS.Core.Generic.Common/UMSS.Core.Generic.Common.csproj"
+      "path": "../../Generic/UMSS.Generic.Repository/UMSS.Generic.Repository.csproj",
+      "msbuildProject": "../../Generic/UMSS.Generic.Repository/UMSS.Generic.Repository.csproj"
     },
-    "UMSS.Core.Generic.DataAccess/1.0.0": {
+    "UMSS.Generic.Service/1.0.0": {
       "type": "project",
-      "path": "../../Core/UMSS.Core.Generic.DataAccess/UMSS.Core.Generic.DataAccess.csproj",
-      "msbuildProject": "../../Core/UMSS.Core.Generic.DataAccess/UMSS.Core.Generic.DataAccess.csproj"
+      "path": "../../Generic/UMSS.Generic.Service/UMSS.Generic.Service.csproj",
+      "msbuildProject": "../../Generic/UMSS.Generic.Service/UMSS.Generic.Service.csproj"
+    },
+    "UMSS.Music.Business/1.0.0": {
+      "type": "project",
+      "path": "../../Music/UMSS.Music.Business/UMSS.Music.Business.csproj",
+      "msbuildProject": "../../Music/UMSS.Music.Business/UMSS.Music.Business.csproj"
+    },
+    "UMSS.Music.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../../Music/UMSS.Music.DataAccess/UMSS.Music.DataAccess.csproj",
+      "msbuildProject": "../../Music/UMSS.Music.DataAccess/UMSS.Music.DataAccess.csproj"
+    },
+    "UMSS.Music.DataService/1.0.0": {
+      "type": "project",
+      "path": "../../Music/UMSS.Music.DataService/UMSS.Music.DataService.csproj",
+      "msbuildProject": "../../Music/UMSS.Music.DataService/UMSS.Music.DataService.csproj"
+    },
+    "UMSS.Music.Entity/1.0.0": {
+      "type": "project",
+      "path": "../../Music/UMSS.Music.Entity/UMSS.Music.Entity.csproj",
+      "msbuildProject": "../../Music/UMSS.Music.Entity/UMSS.Music.Entity.csproj"
+    },
+    "UMSS.Music.MapperService/1.0.0": {
+      "type": "project",
+      "path": "../../Music/UMSS.Music.MapperService/UMSS.Music.MapperService.csproj",
+      "msbuildProject": "../../Music/UMSS.Music.MapperService/UMSS.Music.MapperService.csproj"
+    },
+    "UMSS.Music.Model/1.0.0": {
+      "type": "project",
+      "path": "../../Music/UMSS.Music.Model/UMSS.Music.Model.csproj",
+      "msbuildProject": "../../Music/UMSS.Music.Model/UMSS.Music.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "AutoMapper >= 9.0.0",
-      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 7.0.0",
+      "AutoMapper >= 10.0.0",
+      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.0.0",
       "FluentValidation >= 8.6.2",
       "Microsoft.AspNetCore.Cors >= 2.2.0",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.5",
@@ -9649,9 +9773,7 @@
       "Serilog.Sinks.RollingFile >= 3.3.0",
       "Serilog.Sinks.Seq >= 4.0.0",
       "Swashbuckle.AspNetCore >= 5.4.1",
-      "UMSS.Core.Generic.Business >= 1.0.0",
-      "UMSS.Core.Generic.Common >= 1.0.0",
-      "UMSS.Core.Generic.DataAccess >= 1.0.0"
+      "UMSS.Music.Business >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -9680,14 +9802,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.Business\\UMSS.Core.Generic.Business.csproj": {
-              "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.Business\\UMSS.Core.Generic.Business.csproj"
-            },
-            "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.Common\\UMSS.Core.Generic.Common.csproj": {
-              "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.Common\\UMSS.Core.Generic.Common.csproj"
-            },
-            "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.DataAccess\\UMSS.Core.Generic.DataAccess.csproj": {
-              "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Core\\UMSS.Core.Generic.DataAccess\\UMSS.Core.Generic.DataAccess.csproj"
+            "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.Business\\UMSS.Music.Business.csproj": {
+              "projectPath": "D:\\MyProjects\\UMSS.IntegratedSolution\\Music\\UMSS.Music.Business\\UMSS.Music.Business.csproj"
             }
           }
         }
@@ -9703,11 +9819,11 @@
         "dependencies": {
           "AutoMapper": {
             "target": "Package",
-            "version": "[9.0.0, )"
+            "version": "[10.0.0, )"
           },
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
-            "version": "[7.0.0, )"
+            "version": "[8.0.0, )"
           },
           "FluentValidation": {
             "target": "Package",
@@ -9790,7 +9906,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

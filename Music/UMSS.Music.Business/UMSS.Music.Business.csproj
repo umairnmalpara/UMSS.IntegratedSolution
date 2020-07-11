@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Generic\UMSS.Generic.Service\UMSS.Generic.Service.csproj" />
+    <ProjectReference Include="..\UMSS.Music.DataAccess\UMSS.Music.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>

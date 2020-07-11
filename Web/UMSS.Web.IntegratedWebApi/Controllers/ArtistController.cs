@@ -1,13 +1,13 @@
 ﻿using System;
 using AutoMapper;
 using System.Threading.Tasks;
-using UMSS.Core.Generic.Common.Models;
 using Microsoft.AspNetCore.Mvc;
-using UMSS.Core.Generic.Common.Entities;
-using UMSS.Core.Generic.Common.Services;
 using System.Collections.Generic;
 using UMSS.Web.IntegratedWebApi.Resources;
 using UMSS.Web.IntegratedWebApi.Validators;
+using UMSS.Music.Business.Services.Interface;
+using UMSS.Music.Model;
+using UMSS.Music.Entity;
 
 namespace UMSS.Web.IntegratedWebApi.Controllers
 {

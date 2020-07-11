@@ -4,6 +4,8 @@ using System.IO;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Configuration;
+using UMSS.Music.DataService;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace UMSS.Web.IntegratedWebApi
 {
@@ -31,12 +33,32 @@ namespace UMSS.Web.IntegratedWebApi
             try
             {
                 Log.Information("Integrated Web Api Starting Up.");
-                CreateHostBuilder(args, enviromentValue).Build().Run();
+
+                var host = CreateHostBuilder(args, enviromentValue).Build();
+
+                using (var scope = host.Services.CreateScope())
+                {
+                    var services = scope.ServiceProvider;
+
+                    try
+                    {
+                        var context = services.GetRequiredService<MusicDbContext>();
+
+                        DbContextInitializer.Initialize(context).Wait();
+                    }
+                    catch (Exception ex)
+                    {
+                        Log.Error("An error occurred while seeding the database  {Error} {StackTrace} {InnerException} {Source}",
+                        ex.Message, ex.StackTrace, ex.InnerException, ex.Source);
+                    }
+                }
+
+                host.Run();
             }
             catch (Exception ex)
             {
                 Log.Fatal(ex, "Integrated Web Api failed to start.");
-                throw;
+                throw ex;
             }
             finally
             {
@@ -44,7 +66,7 @@ namespace UMSS.Web.IntegratedWebApi
             }
         }
 
-        public static IHostBuilder CreateHostBuilder(string[] args, string enviromentValue) =>
+        public static IHostBuilder CreateHostBuilder(string[] args, string enviromentValue)=>
             Host.CreateDefaultBuilder(args)
                 .UseSerilog()
                 .ConfigureWebHostDefaults(webBuilder =>
